@@ -15,4 +15,6 @@ CircleCollider* CircleCollider_Construct(float cx, float cy, float r){
     collider->cx = cx;
     collider->cy = cy;
     collider->r = r;
+
+    return collider;
 }
